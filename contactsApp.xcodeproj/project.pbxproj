@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		4EDF2F44255490E500EC5ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F43255490E500EC5ED2 /* AppDelegate.swift */; };
 		4EDF2F46255490E500EC5ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F45255490E500EC5ED2 /* SceneDelegate.swift */; };
-		4EDF2F48255490E500EC5ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F47255490E500EC5ED2 /* ViewController.swift */; };
-		4EDF2F4B255490E500EC5ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF2F49255490E500EC5ED2 /* Main.storyboard */; };
 		4EDF2F4D255490E900EC5ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF2F4C255490E900EC5ED2 /* Assets.xcassets */; };
-		4EDF2F50255490E900EC5ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF2F4E255490E900EC5ED2 /* LaunchScreen.storyboard */; };
 		4EDF2F5B255490E900EC5ED2 /* contactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F5A255490E900EC5ED2 /* contactsAppTests.swift */; };
 		4EDF2F66255490EA00EC5ED2 /* contactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F65255490EA00EC5ED2 /* contactsAppUITests.swift */; };
+		4EDF2F81255493AC00EC5ED2 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F80255493AC00EC5ED2 /* ContactModel.swift */; };
+		4EDF2F8C255498AD00EC5ED2 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2F8B255498AD00EC5ED2 /* ContactView.swift */; };
+		4EDF2FB125549FB300EC5ED2 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2FB025549FB300EC5ED2 /* ContactVC.swift */; };
+		4EDF2FB62554A51600EC5ED2 /* ContactTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2FB52554A51600EC5ED2 /* ContactTVCell.swift */; };
+		4EDF2FBB2554D66000EC5ED2 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2FBA2554D66000EC5ED2 /* MainTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +40,7 @@
 		4EDF2F40255490E500EC5ED2 /* contactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF2F43255490E500EC5ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDF2F45255490E500EC5ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EDF2F47255490E500EC5ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EDF2F4A255490E500EC5ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EDF2F4C255490E900EC5ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EDF2F4F255490E900EC5ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EDF2F51255490E900EC5ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EDF2F56255490E900EC5ED2 /* contactsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF2F5A255490E900EC5ED2 /* contactsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,11 @@
 		4EDF2F61255490E900EC5ED2 /* contactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF2F65255490EA00EC5ED2 /* contactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsAppUITests.swift; sourceTree = "<group>"; };
 		4EDF2F67255490EA00EC5ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF2F80255493AC00EC5ED2 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		4EDF2F8B255498AD00EC5ED2 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		4EDF2FB025549FB300EC5ED2 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		4EDF2FB52554A51600EC5ED2 /* ContactTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTVCell.swift; sourceTree = "<group>"; };
+		4EDF2FBA2554D66000EC5ED2 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,12 @@
 		4EDF2F42255490E500EC5ED2 /* contactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				4EDF2F43255490E500EC5ED2 /* AppDelegate.swift */,
-				4EDF2F45255490E500EC5ED2 /* SceneDelegate.swift */,
-				4EDF2F47255490E500EC5ED2 /* ViewController.swift */,
-				4EDF2F49255490E500EC5ED2 /* Main.storyboard */,
+				4EDF2FBA2554D66000EC5ED2 /* MainTab.swift */,
+				4EDF2F7C255491DF00EC5ED2 /* Controllers */,
+				4EDF2F7D2554931A00EC5ED2 /* Model */,
+				4EDF2F7E2554936F00EC5ED2 /* View */,
+				4EDF2F7F2554937A00EC5ED2 /* Supporting Files */,
 				4EDF2F4C255490E900EC5ED2 /* Assets.xcassets */,
-				4EDF2F4E255490E900EC5ED2 /* LaunchScreen.storyboard */,
 				4EDF2F51255490E900EC5ED2 /* Info.plist */,
 			);
 			path = contactsApp;
@@ -126,6 +130,40 @@
 				4EDF2F67255490EA00EC5ED2 /* Info.plist */,
 			);
 			path = contactsAppUITests;
+			sourceTree = "<group>";
+		};
+		4EDF2F7C255491DF00EC5ED2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF2FB025549FB300EC5ED2 /* ContactVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4EDF2F7D2554931A00EC5ED2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF2F80255493AC00EC5ED2 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EDF2F7E2554936F00EC5ED2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF2F8B255498AD00EC5ED2 /* ContactView.swift */,
+				4EDF2FB52554A51600EC5ED2 /* ContactTVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EDF2F7F2554937A00EC5ED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF2F43255490E500EC5ED2 /* AppDelegate.swift */,
+				4EDF2F45255490E500EC5ED2 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDF2F50255490E900EC5ED2 /* LaunchScreen.storyboard in Resources */,
 				4EDF2F4D255490E900EC5ED2 /* Assets.xcassets in Resources */,
-				4EDF2F4B255490E500EC5ED2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDF2F48255490E500EC5ED2 /* ViewController.swift in Sources */,
 				4EDF2F44255490E500EC5ED2 /* AppDelegate.swift in Sources */,
+				4EDF2F81255493AC00EC5ED2 /* ContactModel.swift in Sources */,
+				4EDF2FB62554A51600EC5ED2 /* ContactTVCell.swift in Sources */,
+				4EDF2FBB2554D66000EC5ED2 /* MainTab.swift in Sources */,
+				4EDF2FB125549FB300EC5ED2 /* ContactVC.swift in Sources */,
+				4EDF2F8C255498AD00EC5ED2 /* ContactView.swift in Sources */,
 				4EDF2F46255490E500EC5ED2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,25 +334,6 @@
 			targetProxy = 4EDF2F62255490E900EC5ED2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4EDF2F49255490E500EC5ED2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EDF2F4A255490E500EC5ED2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4EDF2F4E255490E900EC5ED2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EDF2F4F255490E900EC5ED2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4EDF2F68255490EA00EC5ED2 /* Debug */ = {
